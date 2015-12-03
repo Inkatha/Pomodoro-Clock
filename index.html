@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Pomodoro Clock</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,400italic' rel='stylesheet' type='text/css'>
+<div class="container-fluid">
+  <h1>Pomodoro Clock</h1>
+
+  <div class="row">
+    <div class="timer-title">
+      <span class="break-length"> Break Length </span>
+      <span class="session-length"> Session Length </span>
+    </div>
+    <!--End row-->
+  </div>
+  <div class="row">
+    <div class="add-subtract">
+      <button class="subtract-break">-</button>
+      <span id="break-amount">05</span>
+      <button class="add-break">+</button>
+
+      <button class="subtract-session">-</button>
+      <span id="session-amount">25</span>
+      <button class="add-session">+</button>
+    </div>
+    <!-- End of row -->
+  </div>
+
+  <button id="clock">
+    <div class="clock-title">Session</div>
+    <div class="clock-value"></div>
+  </button>
+  
+  <div id="restart-button" align="center" class="btn">Restart</div>
+    <div align="center" id="error-message" class="alert alert-warning" hidden>Session and break length can only be changed while paused, and cannot be less than zero.</div>
+  <!-- End of container-fluid -->
+</div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>

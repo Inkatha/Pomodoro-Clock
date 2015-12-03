@@ -1,0 +1,87 @@
+html, body {
+  height: 100%;
+}
+
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+body {
+  background-color: #151515;
+}
+
+h1 {
+  margin-top: 40px;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 50px;
+  color: #ffffff;
+}
+
+.timer-title {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.timer-title .break-length {
+  padding-right: 55px;
+}
+
+.add-subtract {
+  font-size: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.add-subtract .add-break {
+   margin-right: 60px;
+}
+
+/* Clock Styling */
+#clock {
+  margin: auto;
+  margin-top: 15px;
+  text-align: center;
+  display: block;
+  border: 2px solid white;
+  width: 260px;
+  height: 300px;
+  border-radius: 100px;
+  color: #ffffff;
+  line-height: 90px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#clock .clock-title {
+  margin-bottom: 35px;
+  font-size: 50px;
+}
+
+#clock .clock-value {
+  padding-bottom: 40px;
+  font-size: 55px;
+}
+
+/* Restart Button */
+#restart-button {
+  margin: auto;
+  margin-top: 9px;
+  margin-bottom: 10px;
+  display: block;
+  background: #ffffff;
+  width: 85px;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Error Message */
+#error-message {
+  margin: auto;
+}
